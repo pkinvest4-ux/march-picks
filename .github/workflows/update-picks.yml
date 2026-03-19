@@ -2,7 +2,7 @@ name: Update Picks Dashboard
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 12-4 * * *'
+    - cron: '*/30 * * * *'
 jobs:
   update:
     runs-on: ubuntu-latest
